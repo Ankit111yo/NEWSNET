@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/toolbar"
+    android:layout_below="@id/toolbar"
+
+    android:clipToPadding="false"
+    android:background="@color/background"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="not_connected"
+        android:visibility="invisible"
+        android:id="@+id/empty_view"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/try_again"
+        android:visibility="invisible"
+        android:text="@string/try_again"
+        android:layout_below="@+id/empty_view"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progload"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

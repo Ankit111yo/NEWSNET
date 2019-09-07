@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NewsNet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">News Category</string>
+    <string name="nav_header_subtitle">The news you want</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="search_hint">Search</string>
+
+
+    <string name="news_url">https://newsapi.org/v2/top-headlines</string>
+    <string name="api_key">72c214ccffc5464bbb03113859b29ab3</string>
+    <string name="no_connection">NO INTERNET CONNECTION</string>
+
+
+    <string name="general">General</string>
+    <string name="business">Business</string>
+    <string name="sports">Sports</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="technology">Technology</string>
+    <string name="powered">Powered by NewsAPI.org</string>
+    <string name="try_again">TRY AGAIN</string>
+
+</resources>
